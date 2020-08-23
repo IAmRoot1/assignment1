@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }    
+        body{
+            background-image: url(img1.jpg);
+            height: 100vh;
+
+        }
+        .main{
+            width: 860px;
+            margin: 0 auto;
+        }
+        .main ul{
+            list-style: none;
+            margin-top: 2%;
+           
+            
+        }
+        .main ul li{
+            background: #423423;
+            width: 170px;
+            border: 1px solid #fff;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            float: left;
+            color: #fff;
+            font-size: 14px;
+            position: relative; 
+        }
+        .main ul li:hover{
+            background: crimson;
+        }
+        .main ul ul{
+            display: none; 
+        }
+        .main ul li:hover > ul{
+            display: block;
+        }
+        .main ul ul ul{
+            margin-left: 170px;
+            top: 0;
+            position: absolute;
+        }
+    </style>
+    </head>
+    <body>
+        <dev class="main">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services
+                    <ul>
+                        <li>Design
+                            <ul>
+                                <li>Web</li>
+                                <li>Graphics</li>
+                            </ul>
+                        </li>
+                        <li>Marketing</li>
+                        <li>Development
+                            <ul>
+                                <li>Web</li>
+                                <li>Game</li>
+                                <li>Mobile App</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Contact Us</li>
+            </ul>
+        </dev>
+        <br>
+        <dev>
+                <a href="index.html">1st Page</a><br>
+                <a href="InputAttributes.html">3rd Page</a>        
+        </dev>
+    </body>
+</html>
